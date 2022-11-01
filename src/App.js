@@ -1,10 +1,8 @@
 import Nav from './components/nav';
 import Home from './components/home';
 import About from './components/about';
-import {
-  AiFillGithub,
-  AiFillLinkedin,  
-} from "react-icons/ai";
+import Portfolio from './components/portolio';
+
 import './App.css';
 
 function App() {
@@ -13,6 +11,7 @@ function App() {
     <Nav />
     <Home />
     <About />
+    <Portfolio />
   </div>
   );
 }
