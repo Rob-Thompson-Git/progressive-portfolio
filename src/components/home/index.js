@@ -1,10 +1,14 @@
 import React from 'react';
+import img1 from '../../images/me.jpeg';
 
 const Home = () => {
     return (
-        <div className='w-full h-screen bg-slate-900'>
-            {/* container */}
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+     <div className=' bg-slate-900 py-10 w-full h-screen'>   
+        <div className='flex justify-center w-50% align-s py-10 m-10 '>
+            <div className='flex-1 pl-[135px]'>
+                <img src={img1} className="rounded-full pl-[10px]"/>
+            </div>
+            <div className='flex-1 h-full border-l-sky-300 border-l-8 pl-10 -pr-10'>
                 <p className='text-white'>Hi, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-blue-400'>Rob Thompson</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-slate-400'>I'm a creative, full-stack web developer</h2>
@@ -14,6 +18,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
+    </div>
     )
 }
 

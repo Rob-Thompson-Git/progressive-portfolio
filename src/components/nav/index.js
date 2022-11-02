@@ -8,7 +8,7 @@ function Nav() {
     const handleClick = () => setNav(!nav)
 
     return (
-      <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-900 text-gray-50">
+      <div className="fixed w-full h-[80px] flex justify-between items-center px-4  bg-slate-900 text-gray-50">
         <div>
             <h1 className="text-white">RT</h1>
         </div>
