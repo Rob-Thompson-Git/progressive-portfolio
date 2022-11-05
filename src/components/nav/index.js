@@ -1,23 +1,36 @@
-import React, {useState} from "react";
+import React from "react";
+import {useState} from "react";
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import resume from '../../images/Robert_Thompson_Software_Engineer.pdf'
+
 
 function Nav() {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
+
     return (
-      <div className="fixed w-full h-[80px] flex justify-between items-center px-4  bg-slate-900 text-gray-50">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-50 
+      bg-gradient-to-r from-sky-300 via-slate-900 to-slate-900 nav-noice">
         <div>
             <h1 className="text-white">RT</h1>
         </div>
         {/* menu */}
         <ul className="hidden md:flex">
-            <li>Aboute Me</li>
-            <li>Portfolio</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
+            <li> 
+                <a href="#about">About</a>  
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+            <li>
+                <a href={resume} target={"_blank"} >Resume</a>
+            </li>
         </ul>
 
         {/* hamburg */}
@@ -26,7 +39,7 @@ function Nav() {
         </div>
 
         {/* mobile*/}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-slate-900 flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-slate-900'}>
             <li className="py-6 text-4xl">Aboute Me</li>
             <li className="py-6 text-4xl">Portfolio</li>
             <li className="py-6 text-4xl">Contact Me</li>
@@ -58,7 +71,7 @@ function Nav() {
                 </li>
             </ul>
         </div>
-      </div>
+    </div>
     )
 }
 
