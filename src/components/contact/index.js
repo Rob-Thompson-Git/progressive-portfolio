@@ -7,8 +7,8 @@ import emailjs from '@emailjs/browser';
 
 const Result = () => {
   return (
-    <div className='w-full pt-10'>
-      <p className='font-bold lg:pl-10'> <BsCheckCircleFill className='inline text-green-700 text-4xl'/> Your message was sent. I will will contact you shortly. Thank you!</p>
+    <div className='border-none'>
+      <h1> <BsCheckCircleFill className='inline text-green-700 text-xl'/> Your message was sent. I will will contact you shortly. Thank you!</h1>
     </div>
   )
 }
@@ -31,15 +31,20 @@ const Contact = () => {
       setShowResult(true);
   };
 
+  setTimeout(() => {
+    setShowResult(false);
+  }, 10000);
+
   return (
-<div name="contact" id="contact" className='w-full h-full py-10'>
-    <div  className="relative rounded-lg border-8" >
-      <div className="absolute inset-0">
-        <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
+  <div name="contact" id="contact" className='w-full h-full bg-slate-900 grid grid-cols-1'>
+<div className='w-3/4 place-self-center'>
+    <div  className="relative rounded-2xl border-8 px-10"  >
+      <div className="absolute inset-0 bg-gray-50 ">
+        <div className="absolute inset-y-0 left-0 w-1/2  bg-gray-50" />
       </div>
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
-        <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-10 xl:pr-12">
-          <div className="mx-auto max-w-lg">
+        <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-10 xl:pr-12 rounded-2xl">
+          <div className="mx-auto max-w-lg rounded-2xl">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Contact Me</h2>
             <p className="mt-2 text-lg leading-6 text-gray-500">
               Thank you for viewing.
@@ -63,7 +68,7 @@ const Contact = () => {
            
           </div>
         </div>
-        <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-10 lg:px-8 xl:pl-12">
+        <div className="bg-gray-50 py-8 px-4 sm:px-6 lg:col-span-3 lg:py-10 lg:px-8 xl:pl-12">
           <div className="mx-auto max-w-lg lg:max-w-none">
             <form action="#" ref={form} onSubmit={sendEmail} method="POST" className="grid grid-cols-1 gap-y-6">
               <div>
@@ -105,10 +110,10 @@ const Contact = () => {
                   defaultValue={''}
                 />
               </div>
-              <div>
+              <div className='grid grid-cols-2 gap-20'>
                 <button
                   type="submit"
-                  className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  className="rounded-md border border-transparent bg-indigo-600 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                   Send
                 </button>
@@ -119,6 +124,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+</div>
 </div>
     )
 }
