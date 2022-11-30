@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/progressive-portfolio/static/css/main.eaed1401.css",
+    "main.js": "/progressive-portfolio/static/js/main.4ae5b137.js",
+    "static/media/brew.png": "/progressive-portfolio/static/media/brew.781d17077d6789b1aa32.png",
+    "static/media/awaken.png": "/progressive-portfolio/static/media/awaken.9c5dd4e5c8ce3cfe64a5.png",
+    "static/media/me.jpeg": "/progressive-portfolio/static/media/me.cebb147bbe0e9c8e4af1.jpeg",
+    "static/media/Robert_Thompson_Software_Engineer.pdf": "/progressive-portfolio/static/media/Robert_Thompson_Software_Engineer.41f20bfa2ae45c44a644.pdf",
+    "index.html": "/progressive-portfolio/index.html",
+    "main.eaed1401.css.map": "/progressive-portfolio/static/css/main.eaed1401.css.map",
+    "main.4ae5b137.js.map": "/progressive-portfolio/static/js/main.4ae5b137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaed1401.css",
+    "static/js/main.4ae5b137.js"
+  ]
+}
