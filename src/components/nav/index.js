@@ -4,6 +4,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import resume from '../../images/Robert_Thompson_Resume.pdf'
+import rt from '../../images/rtLogo.png'
 
 
 function Nav() {
@@ -15,12 +16,12 @@ function Nav() {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-50 
       bg-gradient-to-r from-sky-300 via-slate-900 to-slate-900 nav-noice">
         <div>
-            <h1 className="text-white">RT</h1>
+            <img className="max-h-14" src={rt} alt="robert thompson web developer" />
         </div>
         {/* menu */}
         <ul className="hidden md:flex">
             <li> 
-                <a href="#about">About</a>  
+                <a href="#skills">Skills</a>  
             </li>
             <li>
                 <a href="#portfolio">Portfolio</a>
@@ -50,7 +51,7 @@ function Nav() {
         <div className="flex fixed flex-col top-[35%] left-0 lg:flex">
             <ul>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-                    <a className="flex justify-between items-center w-full text-gray-50" href="https://www.linkedin.com/in/robert-thompson-web-development/">
+                    <a className="flex justify-between items-center w-full text-gray-50" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/robert-thompson-web-development/">
                         Linkedin <FaLinkedin size={30} />
                     </a>
                 </li>
