@@ -2,6 +2,7 @@
 import brew from "../../images/brew.png";
 import awaken from "../../images/awaken.png";
 // import work from "../../images/work.jpeg";
+import home from "../../images/home.png";
 
 
 
@@ -42,7 +43,7 @@ const Portfolio = () => {
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        BrewView: JS, CSS Application
+                        Awaken: Node.js, mySQL Application
                         </span>
                     <div className="pt-8 text-center">
                         <a href="/">
@@ -56,13 +57,13 @@ const Portfolio = () => {
                      </div>
                 </div>
                {/* grid item */}
-                <div style={{ backgroundImage: `url(${brew})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
+                <div style={{ backgroundImage: `url(${home})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
                 >
 
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        BrewView: JS, CSS Application
+                        Home: MERN stack, tailwind css Project
                         </span>
                     <div className="pt-8 text-center">
                         <a href="/">
