@@ -23,11 +23,11 @@ const About = () => {
         <div className="lg:items-center lg:gap-8">
           <div className="mt-8 gap-1 md:mt-0 md:grid md:grid-cols-2">
             <div className='col-span-1 flex'> 
-            <img src={img1} className="rounded-full p-5" alt="rob thompson web development"/>
+            <img src={img1} className="rounded-full p-5 ml-auto mr-auto block" alt="rob thompson web development"/>
             </div>
-            <div className='place-self-center left-0'>
+            <div className='place-self-center left-0 my-10'>
                 <h1 className='text-blue-400 text-4xl font-bold underline decoration-gray-50 pb-1'>Technologies</h1>
-                <p className='text-gray-50 text-xl mt-2'>On the front-end, I am experienced at creating semantic HTML structure to enhance accesssbiliity and SEO. My coding bootcamp instructor and several classmates tell me I have an eye for design, and I am very experienced with CSS and frameworks like Bootstrap, Tailwind CSS, Bulma, and UIkit. I am also experienced at JavaScript, jQuery, and React.js to traverse the DOM and manipulate data rendered to the client. </p>
+                <p className='text-gray-50 text-xl mt-2 mb-2'>On the front-end, I am experienced at creating semantic HTML structure to enhance accesssbiliity and SEO. My coding bootcamp instructor and several classmates tell me I have an eye for design, and I am very experienced with CSS and frameworks like Bootstrap, Tailwind CSS, Bulma, and UIkit. I am also experienced at JavaScript, jQuery, and React.js to traverse the DOM and manipulate data rendered to the client. </p>
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-2 px-8">
               <img
@@ -36,7 +36,7 @@ const About = () => {
                 alt="Workcation"
               />
             </div>
-            <div className="col-span-1 flex items-center justify-around bg-gray-50 py-2 px-8">
+            <div className="col-span-1 flex items-center justify-around gap-1 bg-gray-50 py-2 px-8">
               <img className="max-h-20" src={cssIcon} alt="css" />
               <img className="max-h-20" src={tailwind} alt="tailwindcss css tailwind ui" />
               <img className="max-h-16" src={bootstrap} alt="bootstrap" />

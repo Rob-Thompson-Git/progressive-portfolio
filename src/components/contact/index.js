@@ -36,7 +36,7 @@ const Contact = () => {
   }, 10000);
 
   return (
-  <div name="contact" id="contact" className='w-full h-full bg-slate-900 grid grid-cols-1'>
+  <div name="contact" id="contact" className='w-full h-full bg-slate-900 grid grid-cols-1 pt-20 pb-40'>
 <div className='w-3/4 place-self-center'>
     <div  className="relative rounded-2xl border-8 px-10"  >
       <div className="absolute inset-0 bg-gray-50 ">
