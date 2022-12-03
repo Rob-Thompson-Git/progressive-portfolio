@@ -41,7 +41,7 @@ function Nav() {
 
         {/* mobile*/}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-slate-900'}>
-            <li className="py-6 text-4xl">About Me</li>
+            <li className="py-6 text-4xl">Skills</li>
             <li className="py-6 text-4xl">Portfolio</li>
             <li className="py-6 text-4xl">Contact Me</li>
             <li className="py-6 text-4xl">Resume</li>

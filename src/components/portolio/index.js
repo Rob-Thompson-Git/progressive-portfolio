@@ -27,11 +27,11 @@ const Portfolio = () => {
                         BrewView: JS, CSS Application
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://jack421myhre.github.io/brew-view/" target="_blank" rel="noreferrer">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/jack421myhre/brew-view" target="_blank" rel="noreferrer">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>
