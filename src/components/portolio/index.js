@@ -3,6 +3,8 @@ import brew from "../../images/brew.png";
 import awaken from "../../images/awaken.png";
 // import work from "../../images/work.jpeg";
 import home from "../../images/home.png";
+import weather from '../../images/weather-app-screenshot.png'
+import quiz from '../../images/code-quiz-screenshot.png'
 
 
 
@@ -66,50 +68,50 @@ const Portfolio = () => {
                         Home: MERN stack, tailwind css Project
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://github.com/RBL1992/home">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/RBL1992/home">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>
                      </div>
                 </div>
-                <div style={{ backgroundImage: `url(${awaken})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
+                <div style={{ backgroundImage: `url(${weather})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
                 >
 
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        BrewView: JS, CSS Application
+                        Weather-App: jQuery, CSS, Bootstrap, HTML
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://rob-thompson-git.github.io/weather-app/">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/Rob-Thompson-Git/weather-app">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>
                      </div>
                 </div>
                {/* grid item */}
-                <div style={{ backgroundImage: `url(${brew})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
+                <div style={{ backgroundImage: `url(${quiz})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
                 >
 
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        BrewView: JS, CSS Application
+                        Code Quiz: JavaScript, CSS, HTML Application
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://rob-thompson-git.github.io/js-code-quiz/">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/Rob-Thompson-Git/js-code-quiz">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>
