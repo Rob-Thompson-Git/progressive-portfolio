@@ -1,9 +1,10 @@
-
+import React from "react";
 import brew from "../../images/brew.png";
 import pass from "../../images/password_gen.png";
 import home from "../../images/home.png";
 import weather from '../../images/weather-app-screenshot.png'
 import quiz from '../../images/code-quiz-screenshot.png'
+import calculator from '../../images/React-calc-screenshot.png'
 
 const Portfolio = () => {
     return (
@@ -113,20 +114,20 @@ const Portfolio = () => {
                        </div>
                      </div>
                 </div>
-                <div style={{ backgroundImage: `url(${pass})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
+                <div style={{ backgroundImage: `url(${calculator})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
                 >
 
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        BrewView: JS, CSS Application
+                        React Calculator: React.js and CSS App
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://rob-thompson-git.github.io/react-calculator/">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/Rob-Thompson-Git/react-calculator">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>

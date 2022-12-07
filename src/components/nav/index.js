@@ -3,7 +3,7 @@ import {useState} from "react";
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
-import resume from '../../images/Robert_Thompson_Resume.pdf'
+import resume from '../../images/Robert_Thompson_Resume22.pdf'
 import rt from '../../images/rtLogo.png'
 
 
@@ -41,10 +41,10 @@ function Nav() {
 
         {/* mobile*/}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-slate-900'}>
-            <li className="py-6 text-4xl">Skills</li>
-            <li className="py-6 text-4xl">Portfolio</li>
-            <li className="py-6 text-4xl">Contact Me</li>
-            <li className="py-6 text-4xl">Resume</li>
+            <li><a className="py-6 text-4xl" href="#skills">Skills</a></li>
+            <li><a className="py-6 text-4xl" href="#portfolio">Portfolio</a></li>
+            <li><a className="py-6 text-4xl" href="#contact">Contact Me</a></li>
+            <li><a className="py-6 text-4xl" href="{resume}">Resume</a></li>
         </ul>
 
         {/* socila icons */}
