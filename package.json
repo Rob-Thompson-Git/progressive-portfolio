@@ -2,7 +2,7 @@
   "name": "first-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Rob-Thompson-Git.github.io/progressive-portfolio",
+  "homepage": "http://rob-thompson-git.github.io/progressive-portfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.9.0",
     "@heroicons/react": "^2.0.13",

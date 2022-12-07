@@ -1,13 +1,9 @@
 
 import brew from "../../images/brew.png";
-import awaken from "../../images/awaken.png";
-// import work from "../../images/work.jpeg";
+import pass from "../../images/password_gen.png";
 import home from "../../images/home.png";
 import weather from '../../images/weather-app-screenshot.png'
 import quiz from '../../images/code-quiz-screenshot.png'
-
-
-
 
 const Portfolio = () => {
     return (
@@ -39,20 +35,20 @@ const Portfolio = () => {
                        </div>
                      </div>
                 </div>
-                <div style={{ backgroundImage: `url(${awaken})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
+                <div style={{ backgroundImage: `url(${pass})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
                 >
 
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        Awaken: Node.js, mySQL Application
+                        Password Generator: HTML, CSS and JavaScript App
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://rob-thompson-git.github.io/password-generator/" target="_blank" rel="noreferrer">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/Rob-Thompson-Git/password-generator" target="_blank" rel="noreferrer">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>
@@ -65,7 +61,7 @@ const Portfolio = () => {
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        Home: MERN stack, tailwind css Project
+                        Home: MERN stack, Tailwind CSS Project
                         </span>
                     <div className="pt-8 text-center">
                         <a href="https://github.com/RBL1992/home">
@@ -84,14 +80,14 @@ const Portfolio = () => {
                      {/* hover effect */}
                     <div className="opacity-0 group-hover:opacity-80">
                         <span className="text-2xl font-bold text-gray-50 tracking-wider">
-                        Weather-App: jQuery, CSS, Bootstrap, HTML
+                        Weather App: jQuery, CSS, Bootstrap, HTML
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="https://rob-thompson-git.github.io/weather-app/">
+                        <a href="https://rob-thompson-git.github.io/weather-app/" target="_blank" rel="noreferrer">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="https://github.com/Rob-Thompson-Git/weather-app">
+                        <a href="https://github.com/Rob-Thompson-Git/weather-app" target="_blank" rel="noreferrer">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>
@@ -107,17 +103,17 @@ const Portfolio = () => {
                         Code Quiz: JavaScript, CSS, HTML Application
                         </span>
                     <div className="pt-8 text-center">
-                        <a href="https://rob-thompson-git.github.io/js-code-quiz/">
+                        <a href="https://rob-thompson-git.github.io/js-code-quiz/" target="_blank" rel="noreferrer">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Demo
                             </button>
                         </a>
-                        <a href="https://github.com/Rob-Thompson-Git/js-code-quiz">
+                        <a href="https://github.com/Rob-Thompson-Git/js-code-quiz" target="_blank" rel="noreferrer">
                              <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-500 font bold text-lg">Code</button>
                          </a>
                        </div>
                      </div>
                 </div>
-                <div style={{ backgroundImage: `url(${awaken})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
+                <div style={{ backgroundImage: `url(${pass})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto text-center content-div"
                 >
 
                      {/* hover effect */}
