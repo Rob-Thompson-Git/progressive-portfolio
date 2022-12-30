@@ -5,6 +5,7 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import resume from '../../images/Robert_Thompson_Resume22.pdf'
 import rt from '../../images/rtLogo.png'
+import './nav.css';
 
 
 function Nav() {
@@ -21,16 +22,16 @@ function Nav() {
         {/* menu */}
         <ul className="hidden md:flex">
             <li> 
-                <a href="#skills">Skills</a>  
+                <a href="#skills" className="hover-effect" data-replace="Skills"><span>Skills</span></a>  
             </li>
             <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio" className="hover-effect" data-replace="Portfolio"><span>Portfolio</span></a>
             </li>
             <li>
-                <a href="#contact">Contact Me</a>
+                <a href="#contact" className="hover-effect" data-replace="Contact Me"><span>Contact Me</span></a>
             </li>
             <li>
-                <a href={resume} target={"_blank"} rel="noreferrer" >Resume</a>
+                <a href={resume} target={"_blank"} rel="noreferrer" className="hover-effect" data-replace="Resume"><span>Resume</span></a>
             </li>
         </ul>
 

@@ -15,9 +15,6 @@ const Home = () => {
                     <button className='border-blue-400 text-blue-400 border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-400 hover:border-blue-400 hover:text-white'>View Work
                     </button>
                 </a>
-                {/* <div>
-                    <img src={img1} className="rounded-full"/>
-                </div>   */}
            </div>
         </div>
     </div>
