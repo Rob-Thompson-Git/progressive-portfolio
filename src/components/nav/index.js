@@ -3,6 +3,7 @@ import {useState} from "react";
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {Link} from 'react-scroll';
 import resume from '../../images/Robert_Thompson_Resume22.pdf'
 import rt from '../../images/rtLogo.png'
 import './nav.css';
@@ -19,16 +20,22 @@ function Nav() {
         <div>
             <img className="max-h-14" src={rt} alt="robert thompson web developer" />
         </div>
-        {/* menu */}
+
         <ul className="hidden md:flex">
             <li> 
-                <a href="#skills" className="hover-effect" data-replace="Skills"><span>Skills</span></a>  
+                <Link to="skills" spy={true} smooth={true} offset={-25} duration={500} className="hover-effect" data-replace="Skills">
+                    <span>Skills</span>
+                </Link>  
             </li>
             <li>
-                <a href="#portfolio" className="hover-effect" data-replace="Portfolio"><span>Portfolio</span></a>
+                <Link to="portfolio" spy={true} smooth={true} offset={50} duration={500}className="hover-effect" data-replace="Portfolio">
+                    <span>Portfolio</span>
+                </Link>
             </li>
             <li>
-                <a href="#contact" className="hover-effect" data-replace="Contact Me"><span>Contact Me</span></a>
+                <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className="hover-effect" data-replace="Contact Me">
+                    <span>Contact Me</span>
+                </Link>
             </li>
             <li>
                 <a href={resume} target={"_blank"} rel="noreferrer" className="hover-effect" data-replace="Resume"><span>Resume</span></a>

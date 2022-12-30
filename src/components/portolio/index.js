@@ -2,9 +2,9 @@ import React from "react";
 import brew from "../../images/brew.png";
 import pass from "../../images/password_gen.png";
 import home from "../../images/home.png";
-import weather from '../../images/weather-app-screenshot.png'
-import quiz from '../../images/code-quiz-screenshot.png'
-import calculator from '../../images/React-calc-screenshot.png'
+import weather from '../../images/weather-app-screenshot.png';
+import quiz from '../../images/code-quiz-screenshot.png';
+import calculator from '../../images/React-calc-screenshot.png';
 
 const Portfolio = () => {
     return (
@@ -137,8 +137,8 @@ const Portfolio = () => {
         </div>
     </div>
 
-    )
-}
+    );
+};
 
                 
                 
