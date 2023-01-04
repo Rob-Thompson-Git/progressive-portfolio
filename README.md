@@ -3,7 +3,7 @@
 # React Portfolio
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)<br>
 
-Deployed Live Link: https://rob-thompson-git.github.io/react-portfolio/
+Deployed Live Link: https://rob-thompson-git.github.io/progressive-portfolio/
 
 # Description
 
